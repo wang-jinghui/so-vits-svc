@@ -1,5 +1,5 @@
 # SO-VITs-SVC
-<center> Audio Preprocess </center>
+
 ```mermaid
 flowchart LR
 data([Audio:wav])-->|slice|data_slices([data slices])-->|resample|data_slices2([data slices<sub>44k</sub>])
