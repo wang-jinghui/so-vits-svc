@@ -5,7 +5,7 @@ flowchart LR
 data([Audio:wav])-->|slice|data_slices([data slices])-->|resample|data_slices2([data slices<sub>44k</sub>])
 data_slices2-->|save|dataset([dataset<sub>44k</sub>])
 ```
-<center> Audio Feature Extract</center>
+ 
 #### Graph
 ```mermaid
 graph TD
